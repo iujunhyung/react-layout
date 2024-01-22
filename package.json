@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/react-layout",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node-sass": "^4.11.7",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "rollup": "^4.9.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "postcss": "^8.4.33",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.0.0"
+  }
+}
