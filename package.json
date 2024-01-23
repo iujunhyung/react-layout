@@ -2,7 +2,8 @@
   "name": "@monorepo/react-layout",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "rimraf dist && rollup -c"
   },
@@ -18,7 +19,7 @@
     "@types/node-sass": "^4.11.7",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
-    "rollup": "^4.9.5",
+    "rollup": "^4.9.6",
     "rollup-plugin-postcss": "^4.0.2",
     "postcss": "^8.4.33",
     "sass": "^1.70.0",
