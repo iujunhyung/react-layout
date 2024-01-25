@@ -5,7 +5,7 @@ export function ReactLayout({ children }: any) {
   const [time, setTime] = useState<number>();
 
   useEffect(() => {
-    setTime(50);
+    setTime(10);
   }, []);
 
   return (
