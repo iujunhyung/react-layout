@@ -11,7 +11,7 @@ export function ReactLayout({ children }: any) {
   return (
     <div className={styles.root}>
       {children}
-      <span>{time} ad</span>
+      <span>{time}d ad</span>
     </div>
   );
 }
